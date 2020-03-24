@@ -23,8 +23,8 @@ def combat_outcomes(i):
         return "Damage yourself"
     elif i < 4:
         return "Miss"
-    elif i < 8:
-        return "Grazed enemy"
+    #elif i < 8:
+        #return "Grazed enemy"
     elif i < 12:
         return "Damaged enemy, but there is a downside..."
     elif i < 15:
